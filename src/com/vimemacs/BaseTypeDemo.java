@@ -25,14 +25,8 @@ public class BaseTypeDemo {
 
     @Test
     public void testOperation() {
-        byte a1 = 2;
-        byte a2 = 1;
-        byte a3 = (byte)(a1 + a2);
-        int a4 = a1 + a2;
-        System.out.println(a3 + "," + a4);
-
-        long l = 8;
-        long x = l + 1;
-        int y = (int)(1 + l);
+        String x = "90";
+        int xx = 89 + Integer.parseInt(x);
+        System.out.println(xx);
     }
 }
