@@ -8,6 +8,19 @@ import java.io.IOException;
  * Created by hwd on 2015/9/12.
  */
 public class Child extends Parent{
+    public String name = "Tom";
+
+    public void abc() {
+        System.out.println("你好：" + name);
+    }
+
+    @Test
+    public void invoke() {
+        String name = "Mary";
+        System.out.println(super.age);
+        super.tel();
+    }
+
     @Test
     public void testExtends() {
         // 无法访问父类的所有私有成员方法
