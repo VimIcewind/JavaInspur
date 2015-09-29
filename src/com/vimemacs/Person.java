@@ -6,6 +6,10 @@ package com.vimemacs;
 public class Person {
     private String name;
 
+    public void say() {
+        System.out.println("I'm a person!");
+    }
+
     public Person() {
         this("noname");
     }
